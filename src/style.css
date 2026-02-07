@@ -1,0 +1,45 @@
+@import "./styles/reset.css";
+
+/* Add global styles here */
+
+/* Breakpoints for responsive css */
+
+/* Small devices (phones in portrait mode) */
+@media (min-width: 320px) {
+  /* Styles for small devices */
+}
+
+/* Medium devices (phones in landscape mode or smaller tablets) */
+@media (min-width: 480px) {
+  /* Styles for medium devices */
+}
+
+/* Larger phones or small tablets */
+@media (min-width: 600px) {
+  /* Styles for larger phones or small tablets */
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  /* Styles for tablets */
+}
+
+/* Small desktop or large tablets in landscape */
+@media (min-width: 1024px) {
+  /* Styles for small desktops or larger tablets */
+}
+
+/* Laptops and desktops */
+@media (min-width: 1280px) {
+  /* Styles for laptops and desktops */
+}
+
+/* Larger desktops */
+@media (min-width: 1440px) {
+  /* Styles for larger desktops */
+}
+
+/* Very large screens */
+@media (min-width: 1920px) {
+  /* Styles for very large screens (4K and above) */
+}
