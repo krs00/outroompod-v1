@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,29 +9,65 @@
   </head>
   <body>
     <main>
-
-      <img src="dog.jpg" alt="Logo img">
+      <div class="imgwrap">
+        <img class="heroimg" src="/src/assets/ORPLogo.png" alt="Logo img" />
+      </div>
 
       <header>
         <h1 class="no-select">The Outroom Pod</h1>
       </header>
 
-      <section class="announcement">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img1.jpg" style="width: 100%" />
+          <div class="text">Caption Text</div>
+        </div>
 
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img2.jpg" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img3.jpg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <section class="announcement">
         <div class="text-wrap">
-           <p class="body-txt body-story-txt">
-          The Outroom Pod is an insulated, weatherproof outdoor pet room made for rainy Pacific Northwest living that keeps dogs and cats warm, dry, and comfortable year-round. Durable, easy to clean, and designed to look great in PNW backyards.
-        </p>
-        <p class="body-txt">Our website is currently under construction.</p>
-        <p class="body-txt">For inquiries, please contact us:</p>
+          <p class="body-txt body-story-txt">
+            The Outroom Pod is an insulated, weatherproof outdoor pet room made
+            for rainy Pacific Northwest living that keeps dogs and cats warm,
+            dry, and comfortable year-round. Durable, easy to clean, and
+            designed to look great in PNW backyards.
+          </p>
+          <p class="body-txt">Our website is currently under construction.</p>
+          <p class="body-txt">For inquiries, please contact us:</p>
         </div>
 
         <address>
           <p class="body-txt">
-             <a href="tel:+15036073422">(503) 607-3422</a>
+            <a href="tel:+15036073422">(503) 607-3422</a>
           </p>
           <p class="body-txt">
-            
             <a href="mailto:info@christlikecarpentry.com"
               >info@outroompod.com</a
             >

@@ -69,15 +69,23 @@ a:focus {
   user-select: none;
 }
 
+.imgwrap {
+  display: flex;
+  justify-content: center;
+}
+
 /* Breakpoints for responsive css */
 
 /* Small devices (phones in portrait mode) */
 @media (min-width: 320px) {
     .body-story-txt {
     max-width: 100vw;
-
     text-align: center;
   }
+
+  .heroimg {
+    max-width: 30rem;
+}
   /* Styles for small devices */
 }
 
@@ -108,6 +116,10 @@ a:focus {
 
     text-align: center;
   }
+
+    .heroimg {
+    max-width: 45;
+}
 
   /* Styles for small desktops or larger tablets */
 }
